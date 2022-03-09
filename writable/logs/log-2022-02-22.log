@@ -1,0 +1,12 @@
+CRITICAL - 2022-02-22 01:28:11 --> Undefined index: harga
+#0 G:\Xammpp\htdocs\app_cafe_retnowinda\app\Views\user.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\Xammpp\\htdoc...', 57, Array)
+#1 G:\Xammpp\htdocs\app_cafe_retnowinda\vendor\codeigniter4\framework\system\View\View.php(210): include('G:\\Xammpp\\htdoc...')
+#2 G:\Xammpp\htdocs\app_cafe_retnowinda\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\Xammpp\htdocs\app_cafe_retnowinda\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('user', Array, true)
+#4 G:\Xammpp\htdocs\app_cafe_retnowinda\app\Controllers\UserController.php(19): view('user', Array)
+#5 G:\Xammpp\htdocs\app_cafe_retnowinda\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UserController->tampil()
+#6 G:\Xammpp\htdocs\app_cafe_retnowinda\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 G:\Xammpp\htdocs\app_cafe_retnowinda\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\Xammpp\htdocs\app_cafe_retnowinda\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\Xammpp\htdocs\app_cafe_retnowinda\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('G:\\Xammpp\\htdoc...')
+#10 {main}

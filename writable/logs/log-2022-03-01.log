@@ -1,0 +1,14 @@
+CRITICAL - 2022-03-01 00:17:35 --> Call to undefined method CodeIgniter\Session\Session::setFlasdata()
+#0 G:\app_cafe_retnowinda\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#1 G:\app_cafe_retnowinda\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 G:\app_cafe_retnowinda\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\app_cafe_retnowinda\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\app_cafe_retnowinda\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('G:\\app_cafe_ret...')
+#5 {main}
+CRITICAL - 2022-03-01 19:37:39 --> auth filter must have a matching alias defined.
+#0 G:\app_cafe_retnowinda\vendor\codeigniter4\framework\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 G:\app_cafe_retnowinda\vendor\codeigniter4\framework\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 G:\app_cafe_retnowinda\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\app_cafe_retnowinda\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\app_cafe_retnowinda\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('G:\\app_cafe_ret...')
+#5 {main}
